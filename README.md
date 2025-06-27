@@ -55,8 +55,9 @@ Este projeto é uma aplicação construída com **Spring Boot**, que combina aut
 3. Acesse a aplicação:
  http://localhost:8080
 
-### Estrutura do Projeto
+### 🗂️ Estrutura do Projeto
 
+```plaintext
 src
 └── main
     ├── java/com/example/authserver
@@ -70,6 +71,7 @@ src
         ├── schema.sql      # (opcional) Script para criar tabelas
         └── data.sql        # (opcional) Dados iniciais
 
+
 ### Exemplo de schema.sql
 
 CREATE TABLE produto (
@@ -77,3 +79,4 @@ CREATE TABLE produto (
   nome VARCHAR(255) NOT NULL,
   preco DECIMAL(10,2) NOT NULL
 );
+
